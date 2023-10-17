@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		class student
+		{
+			
+			constructor(name,age,city)
+			{
+				this.name=name
+				this.age=age
+				this.city=city
+			}
+
+			mymethod()
+			{
+				console.log(this.name)
+				console.log(this.age)
+				console.log(this.city)
+			}
+		}
+		
+		
+		
+		// Hoisting 
+		function getdata(x,y)
+		{
+			return x*y
+		}
+
+		console.log(getdata(10,12))		
+	</script>
+
+</body>
+</html>
