@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+	const user={
+					name:"suraj",
+					age:23,
+					isprogrammer:true,
+					skillset:["java","js","html","css","springboot"],
+					address:{city:"Salem",state:"Tamilnadu",pin:636007}
+			}
+
+			 console.log(user.skillset[0])
+			 console.log(user.address.state)
+			 console.log(user.address['city'])
+
+			 console.log(typeof user)
+
+			 user1=JSON.stringify(user)
+
+			 user2=JSON.parse(user1)
+
+			 console.log(user2.name)
+
+			
+			
+
+
+
+	
+	
+	</script>
+
+	
+
+</body>
+</html>
