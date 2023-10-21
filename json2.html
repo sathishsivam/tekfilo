@@ -12,24 +12,29 @@
 					age:23,
 					isprogrammer:true,
 					skillset:["java","js","html","css","springboot"],
-					address:{city:"Salem",state:"Tamilnadu",pin:636007}
+					address:{city:"Salem",state:"Tamilnadu",pin:636007},
+					getmail:function(){
+						return "suraj@gmail.com";
+					}
+					
 			}
 
 			 console.log(user.skillset[0])
 			 console.log(user.address.state)
 			 console.log(user.address['city'])
+			 console.log(user.getmail())
 
 			 console.log(typeof user)
 
 			 user1=JSON.stringify(user)
 
+			 console.log(typeof user1)
+
 			 user2=JSON.parse(user1)
 
-			 console.log(user2.name)
+			 console.log(typeof user2)	
 
 			
-			
-
 
 
 	
